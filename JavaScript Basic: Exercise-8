@@ -9,7 +9,6 @@ function getRandomInt(min, max)
 }
 
 a = getRandomInt(0, 10);
-document.write(a);
 var number = prompt("Insert guess number:", "");
 
 if(number==a)
