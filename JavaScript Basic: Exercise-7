@@ -1,0 +1,15 @@
+Write a JavaScript program to find which 1st January is being a Sunday between 2014 and 2050.
+
+for (i = 2014;i<=2040;i++)
+{
+  var d = new Date();
+  d.setDate(1);
+  d.setMonth(0);
+  d.setFullYear(i);
+  var n = d.getDay();
+  if (n==0)
+  {
+    var y = d.getFullYear();
+    document.write(y + "</br>");
+  }
+}
