@@ -1,0 +1,14 @@
+Write a JavaScript program to calculate number of days left until next Christmas.
+
+var c = new Date();
+c.setDate(25);
+c.setMonth(11);
+var cc = c.getTime();
+
+var dd = new Date();
+
+mili = cc - dd;
+
+result = Math.ceil(mili/(1000*60*80*24));
+
+document.write(result);
