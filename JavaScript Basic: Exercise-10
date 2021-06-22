@@ -1,11 +1,13 @@
 Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
 
-function multiply() {
+function multiply() 
+{
   result=first*second;
   return result;
 }
 
-function divide() {
+function divide() 
+{
   result=first/second;
   return result;
 }
