@@ -1,0 +1,8 @@
+Write a JavaScript program to convert temperatures to and from celsius, fahrenheit.
+
+var tempC = 60;
+var tempF = 45; 
+var cel = 5 * (tempF - 32) / 9;
+document.write(tempF + "<sup>o</sup>F is " + cel + "<sup>o</sup>C");
+var fahr = (9 * tempC / 5) + 32;
+document.write(tempC + "<sup>o</sup>C is " + fahr + "<sup>o</sup>F");
